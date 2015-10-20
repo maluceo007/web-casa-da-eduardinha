@@ -1,0 +1,135 @@
+
+body{
+   padding-top: 80px;
+   background-color: #D5CACF;
+}
+
+
+.main{
+    
+    background-color: #1E1B1B;
+}
+
+.navbar{
+
+        background-color: #78554C;
+        background-image: none;
+}
+
+.navbar-header{
+    height: 80px;
+    padding-top: 40px;  
+}
+
+.container ul{
+    background-color: #723E38;
+    
+}
+
+.navbar .nav li a{
+    color: #060606;
+}
+
+.navbar .nav li a:hover{
+    color: #FFFFFF;
+}
+
+.navbar .nav li a:active{
+    color: #FFFFFF;
+}
+
+
+.navbar-nav li a{    
+    padding: 30px 15px ; 
+    font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-size: 1.2em;
+    text-shadow: none;
+
+}
+
+.container-main{
+    height: 512px;
+    
+}
+
+.container-main .jumbotron {
+    /*
+    position: relative;
+    background: #000 url('../media/fachada1.jpg') no-repeat center center;   
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%; 
+    
+    padding: 30px 15px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #f9f9f9;
+  background-size: cover;
+  background: url('../media/fachada1.jpg');   
+    height: 100%;
+	
+    padding-bottom: 0;
+
+    *******************
+    position: relative;
+    background: url("img.url") no-repeat center center;
+    width:100%;
+    height: 100%;
+    background-size: 100% 100%;
+    *****************
+    *****************
+    overflow: hidden;   
+    background-image: url('../media/fachada1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0;
+
+    width: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    
+    background-position: center, center;
+    margin: 0;
+    *****************
+    
+    position: relative;
+    background-image: url('../media/fachada1.jpg');
+    height: 512px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+    background-position: center;
+    width:100%;
+    ******************
+     overflow: hidden;   
+    background-image: url('../media/fachada1.jpg');
+    background-repeat: no-repeat;    
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    
+    background-position: center, center;
+    */
+    /*position: relative;*/
+    background: url('../media/fachada1.jpg') no-repeat center center;
+    width:95%;
+    height: 100%;
+    background-size: 100% 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+footer {
+
+    color: #666;
+    background: #222;
+    padding: 17px 0 18px 0;
+    border-top: 1px solid #000;
+}
