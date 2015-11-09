@@ -4,81 +4,137 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.min.css">
 	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-
-  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
-  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>  
+	<link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap-theme.min.css">
+  <!-- Custom CSS -->
+  <link href="css/full-slider.css" rel="stylesheet">
+  <!--load font awesome-->
+  <link href="font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet">  
 
 	<title>Casa da Eduardinha</title>
-	<!-- Title family letter type -->
-	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+        	<!-- Title family letter type 
+          <link href='https://fonts.googleapis.com/css?family=Pinyon+Script' rel='stylesheet' type='text/css'>
+          -->
 	<!-- Custom css file -->
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-<header>
+<!-- ****************************************************** HEADER ****************************************************** --> 
+<header>  
   
+
  	<!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <nav class="navbar navbar-main navbar-fixed-top" role="navigation">    
+      <nav class="social-header text-right" >   
+        <!-- social media header -->
+        <div class="container" id="socialicons">     
+            
+                  <a class="icon" href=# title="Follow with Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+                  <a class="icon" href=# title="Follow with Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+                  <a class="icon" href=# title="Follow with Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+                  <a class="icon" href=# title="Follow with Google Plus" target="_blank"><i class="fa fa-google-plus"></i></a>                
+                  <a class="icon" href=# title="Follow with Pinterest" target="_blank"><i class="fa fa-pinterest"></i></a>
+                  <a class="icon" href="mailto:#" title="Email Me" target="_blank"><i class="fa fa-envelope"></i></a>
+            
+        </div>   
+      </nav> <!-- social-header -->      
+
       <div class="container">
-		<!-- left side of navbar -->
+		    <!-- left side of navbar -->
         <div class="navbar-header">          
-          <a class="navbar-brand" href="#">Casa da Eduardinha</a>
-        </div>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navHeaderCollapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- Logo -->
+          <a class="navbar-brand " href="#">Casa da Eduardinha</a>           
+        </div> <!-- /.nav-header -->
+
         <!-- right side of navbar/menu -->
-        <div >
-          <ul class="nav navbar-nav navbar-right" >
-		          <li><a href="#">A Casa</a></li>
-		          <li><a href="#">Disponibilidade</a></li>
-			        <li><a href="#">Produtos</a></li>
-			        <li><a href="#">Como Chegar</a></li>
-				      <li><a href="#">Sobre</a></li>
+        <div class="collapse navbar-collapse " id="navHeaderCollapse">
+          <ul class="nav navbar-nav navbar-right " >
+		          <li><a class= "btn-menu" href="#">A Casa</a></li>
+		          <li><a class= "btn-menu" href="#">Disponibilidade</a></li>
+			        <li><a class= "btn-menu" href="#">Produtos</a></li>
+			        <li><a class= "btn-menu" href="#">Envolvente</a></li>
+				      <li><a class= "btn-menu" href="#">Direções</a></li>
 		      </ul>           
         </div><!--/.nav-collapse -->
 
       </div> <!-- /.container -->
-    </nav>	
+
+  </nav>	<!-- /.navbar -->
   
 </header>
+<!-- ****************************************************** MAIN ****************************************************** --> 
+<main id="myCarousel" class="carousel slide">
+  
+  <!-- Full Page Image Background Carousel Header -->
+    
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
 
-<main>
-  <div class="container-main">
-	   <div class="jumbotron">
-      <!--
-  		<div class="container-fluid">
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('media/1024-768/dsc_0034.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 1</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('media/1024-768/dsc_1209.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 2</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('media/Carcavelos2-min.JPG');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 3</h2>
+                </div>
+            </div>
+        </div>
 
-  		</div>
-      -->
-        
-	   </div>
-  <div>
+        <!-- Controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div>
+
+  
 
 </main>
-
+<!-- ****************************************************** FOOTER ****************************************************** --> 
 <footer>
-	<div class="container">
-        <p>Texto texto
-        	Texto texto
-        	Texto texto
-        	Texto texto
-        	Texto texto
-        	Texto texto
-        	Texto texto
-        	Texto texto
-        	Texto texto
-        	Texto texto
-        	Texto texto
+  <div class="separator">
+    
+  </div>
+  
 
-         .</p>
-     </div>
 
 </footer>
 	
+<!-- JQuery 
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+  -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>  
 </body>
 </html>
