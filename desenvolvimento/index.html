@@ -3,44 +3,21 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.min.css">
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap-theme.min.css">
-  <!-- Custom CSS -->
-  <link href="css/full-slider.css" rel="stylesheet">
-  <!--load font awesome-->
-  <link href="font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet">  
 
-	<title>Casa da Eduardinha</title>
-        	<!-- Title family letter type 
-          <link href='https://fonts.googleapis.com/css?family=Pinyon+Script' rel='stylesheet' type='text/css'>
-          -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.min.css"><!-- Latest compiled and minified CSS -->	
+	<link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap-theme.min.css"><!-- Optional theme -->  
+  <link href="css/full-slider.css" rel="stylesheet">  
+  <link href="font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet"> <!--load font awesome-->   
+
+	<title>Casa da Eduardinha</title>        	
 	<!-- Custom css file -->
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-
-<!-- ****************************************************** HEADER ****************************************************** --> 
-<header>  
-  
-
+<!-- ****************************************************** NAVBAR ****************************************************** -->  
  	<!-- Fixed navbar -->
-  <nav class="navbar navbar-main navbar-fixed-top" role="navigation">    
-      <nav class="social-header text-right" >   
-        <!-- social media header -->
-        <div class="container" id="socialicons">     
-            
-                  <a class="icon" href=# title="Follow with Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-                  <a class="icon" href=# title="Follow with Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-                  <a class="icon" href=# title="Follow with Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
-                  <a class="icon" href=# title="Follow with Google Plus" target="_blank"><i class="fa fa-google-plus"></i></a>                
-                  <a class="icon" href=# title="Follow with Pinterest" target="_blank"><i class="fa fa-pinterest"></i></a>
-                  <a class="icon" href="mailto:#" title="Email Me" target="_blank"><i class="fa fa-envelope"></i></a>
-            
-        </div>   
-      </nav> <!-- social-header -->      
-
+  <nav class="navbar navbar-main navbar-static-top " role="navigation">    
       <div class="container">
 		    <!-- left side of navbar -->
         <div class="navbar-header">          
@@ -51,90 +28,280 @@
             <span class="icon-bar"></span>
           </button>
           <!-- Logo -->
-          <a class="navbar-brand " href="#">Casa da Eduardinha</a>           
+          <a class="navbar-brand no-top-bot-padig " href="#"><img src="media/logo.jpg" alt=""></a>           
         </div> <!-- /.nav-header -->
 
         <!-- right side of navbar/menu -->
         <div class="collapse navbar-collapse " id="navHeaderCollapse">
           <ul class="nav navbar-nav navbar-right " >
-		          <li><a class= "btn-menu" href="#">A Casa</a></li>
-		          <li><a class= "btn-menu" href="#">Disponibilidade</a></li>
-			        <li><a class= "btn-menu" href="#">Produtos</a></li>
-			        <li><a class= "btn-menu" href="#">Envolvente</a></li>
-				      <li><a class= "btn-menu" href="#">Direções</a></li>
+		          <li><a class= "btn-menu" href="#section-house-anchor">A Casa</a></li>
+		          <li><a class= "btn-menu" href="#section-availability-anchor">Disponibilidade</a></li>
+			        <li><a class= "btn-menu" href="#section-products-anchor">Produtos</a></li>
+			        <li><a class= "btn-menu" href="#around">Envolvente</a></li>
+				      <li><a class= "btn-menu" href="#directions">Localização</a></li>
+              <li><a class= "btn-menu" href="#">Contato</a></li>
 		      </ul>           
         </div><!--/.nav-collapse -->
 
-      </div> <!-- /.container -->
+    </div> <!-- /.container -->
 
   </nav>	<!-- /.navbar -->
   
-</header>
-<!-- ****************************************************** MAIN ****************************************************** --> 
-<main id="myCarousel" class="carousel slide">
-  
-  <!-- Full Page Image Background Carousel Header -->
+
+
+
+<!-- ********** background image **********--> 
+<section class="section-logo ">
+   <div class="smoke"> 
+      <div class="container scr-hght" >     
+      <!-- initial marketing hook-->
+      <div class="row hook no-margin" >
+        <div class="col-lg-12">       
+            <h1>
+              GÓIS <br>
+              TURISMO RURAL 
+            </h1>
+              <br>
+            <h3>
+              Venha passar um fim de semana na nossa casa de Xísto
+            </h3>
+            <div class="btn-group-md mt-25 mb-15">
+              <a href="#" class="btn btn-default" role="button">VÊR DISPONIBILIDADE <i class="fa fa-angle-down "></i></a>
+            </div>
+            <div class="mt-100" id="section-house-anchor"></div> <!-- anchor to adjust for de 110px navbar -->
+        </div>
+      </div> <!-- /hook --> 
     
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
+  </div> <!-- /container -->
+  </div> <!-- /smoke -->
+</section>
+<!-- ****************************************************** MAIN ****************************************************** --> 
+<main>
+  <!-- ****************************************************** house info ****************************************************** --> 
+
+<section class="section-house scr-hght mt-100" id="house">
+  <div class="container">
+    
+    <div class="row">
+          
+      <div class="col-lg-4">        
+           <h1 class="mt-25">A CASA &nbsp</h1><h2>da Eduardinha </h2><p> é uma casa típica de Xisto convertida em alojamento local, localizada no caminho do Xisto das aldeias de Góis, mais propriamente na aldeia da Ribeira Cimeira.<br>
+          Sobre a nossa unidade, trata-se de uma típica casa Xisto, cuja data de construção remonta a 1930, tendo sido devidamente adaptada para oferecer o conforto e comodidades necessárias para disfrutar e conhecer as aldeias de Xisto do Concelho.<br>
+          A casa dispõe de 2 quartos com cama de casal, cozinha com condições para a confeção de refeições, e ainda de uma sala, com TV, áudio, josgos tradicionais, alguns livros, dotada de um confortável sofá cama onde poderão pernoitar 2 pessoas. Existe ainda casa de banho com chuveiro. No exterior existe uma zona equipada com grelhador a carvão.  
+          </p>        
+      </div>  
+      <div class="col-lg-8">
+        <div id="myCarousel" class="carousel slide " data-ride="carousel">
+          <!-- Indicators 
+          <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol> -->
 
-        <!-- Wrapper for Slides -->
-        <div class="carousel-inner">
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            
+
             <div class="item active">
-                <!-- Set the first background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('media/1024-768/dsc_0034.jpg');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 1</h2>
-                </div>
+              <img src="media/house/fachada.jpg" alt="Fachada">
             </div>
-            <div class="item">
-                <!-- Set the second background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('media/1024-768/dsc_1209.jpg');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 2</h2>
-                </div>
-            </div>
-            <div class="item">
-                <!-- Set the third background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('media/Carcavelos2-min.JPG');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 3</h2>
-                </div>
-            </div>
-        </div>
 
-        <!-- Controls -->
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-      </a>
+            <div class="item">
+              <img src="media/house/fachada2.jpg" alt="Fachada">
+            </div>
+
+            <div class="item">
+              <img src="media/house/quarto1.jpg" alt="Quarto Principal">
+            </div>
+
+            <div class="item">
+              <img src="media/house/quarto12.jpg" alt="Quarto Principal">
+            </div>
+
+            <div class="item">
+              <img src="media/house/quarto13.jpg" alt="Quarto Principal">
+            </div>
+
+            <div class="item">
+              <img src="media/house/quarto2.jpg" alt="Quarto ">
+            </div>
+
+            <div class="item">
+              <img src="media/house/sala.jpg" alt="Sala">
+            </div>
+
+            <div class="item">
+              <img src="media/house/cozinha1.jpg" alt="Cozinha">
+            </div>
+
+            <div class="item">
+              <img src="media/house/cozinha2.jpg" alt="Cozinha">
+            </div>
+
+          </div>          
+
+          <!-- Left and right controls -->               
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="fa fa-arrow-circle-o-left" </span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="fa fa-arrow-circle-o-right" </span>
+            <span class="sr-only">Next</span>
+          </a> 
+
+      </div> <!-- /carousel -->
     </div>
-
-  
-
-</main>
-<!-- ****************************************************** FOOTER ****************************************************** --> 
-<footer>
-  <div class="separator">
+  </div> <!-- /row --> 
+  <!-- up navigation arrow -->
+  <div>    
+    <ul class="nav pull-right scroll-top mt-15 scroll-button">
+      <li><a href="#" title="Voltar ao inicio"><i class="fa fa-arrow-circle-up fa-2x"></i></a></li>
+    </ul>
     
   </div>
+  <div class="mt-25" id="section-products-anchor"></div> <!-- anchor to adjust for de 110px navbar -->
+  </div> <!-- container -->
+
+
+</section>
+<!-- ****************************************************** produtos ****************************************************** --> 
+<section class="section-products scr-hght mt-50" id="produtos">
   
+  <div class="container" >
+    
+
+    <h1 class="text-center mb-25 mt-50">
+      OS NOSSOS PRODUTOS
+    </h1>
+
+  <div class="text-center mt-15 mb-50">
+    <h3>
+      Sobre reserva prévia, poderá ter a sua disposição, alguns produtos gastronómicos de confeção própria.
+    </h3>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="thumbnail ">
+            <img src="media/doceCereja.jpg" alt="">
+            <div class="caption">
+              <h2>
+                Doces da Época
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p>
+            Descrição sobre os doces em geral
+          </p>
+        </div>
+      </div>      
+    </div> 
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="thumbnail ">
+            <img src="media/licor.jpg" alt="">
+            <div class="caption">
+              <h2>
+                Licôres da Época
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p>
+            Descrição sobre os doces em geral
+          </p>
+        </div>
+      </div>  
+    </div>
+    
 
 
+
+  </div> <!-- /row -->
+  <!-- up navigation arrow -->
+  <div>    
+    <ul class="nav pull-right scroll-top  scroll-button">
+      <li><a href="#" title="Voltar ao inicio"><i class="fa fa-arrow-circle-up fa-2x"></i></a></li>
+    </ul>
+  </div>
+
+  </div> <!-- /container -->
+</section>
+
+
+<!-- ****************************************************** FOOTER ****************************************************** --> 
+<footer>
+  <hr>
+    <div class="container">
+    <div class="separator top-marg bottom-marg">
+      <p>
+        FOOTER
+      </p>
+    </div>
+    
+    <ul class="nav pull-right scroll-top scroll-button">
+      <li><a href="#" title="Scroll to top"><i class="fa fa-arrow-circle-up fa-2x"></i></a></li>
+    </ul>
+  </div>
 </footer>
+
+
 	
 <!-- JQuery 
   <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
   -->
-  <script src="js/jquery-1.11.3.min.js"></script>
-
+  <script src="js/jquery-1.11.3.min.js"></script> 
   <!-- Latest compiled and minified JavaScript -->
   <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>  
+
+
+
+
+
+ <script type="text/javascript">
+ $(document).ready(function() { /**** begin ****/
+
+    /* smooth scrolling function */
+    $("#navHeaderCollapse .btn-menu[href^='#']").on('click', function(e) {
+
+    // prevent default anchor click behavior
+    e.preventDefault();
+
+    // store hash
+    var hash = this.hash;
+
+    // animate
+    $('html, body').animate({
+       scrollTop: $(hash).offset().top
+     }, 600, function(){
+
+       // when done, add hash to url
+       // (default click behaviour)
+       window.location.hash = hash;
+     });
+
+    });
+
+    /* smooth scrolling for scroll to top */
+    $('.scroll-top').click(function(){
+      $('body,html').animate({scrollTop:0},600);
+    })
+
+    
+
+}); /*********************end *****************/
+
+
+ </script>
+    
 </body>
 </html>
